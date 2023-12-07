@@ -1,4 +1,29 @@
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
-header{background:rgba(32, 32, 34, 0.5) url(./Picture2.jpg)no-repeat right/contain;background-blend-mode: darken;}
+header{background:url(./recources/1.png)no-repeat center/cover;}
+*{scroll-behavior:smooth;}
+.bglavender{background-color:hsl(240,67%,94%);}.lavender{color:hsl(240,67%,94%);}
+.borderColor{border-color: rgb(242,224,212);}
+.Tan{color:rgb(242,224,212);}
+.bgTan{background-color:rgb(242,224,212);}
+.purple{color:rgb(120,97,145);}
+.bgpurple{background-color:rgb(120,97,145);}
+.BorderPurple{border-color:rgb(120,97,145);}
+.BorderOnBottom::after{position: absolute;content:"";width:0;left:0;transition:0.4s;height:0.1rem;border-radius:50rem;background-color:rgb(120,97,145);}
+.bgBlueGrey{background-color: rgb(113,120,139);}
+.BlueGrey{color: rgb(113,120,139);}
+.Rose{color: rgb(213,160,148);}
+.Popin{font-family: 'Poppins';}
+.Catalogbg{background:url(./recources/Catalogbg.png) no-repeat; background-size: cover;}
+.TransparentWhite{background-color: rgba(255, 255, 255, 0.686);}
+.Catalogimg1{background:url(./recources/catalog1.png) no-repeat center/cover;}
+.Catalogimg2{background:url(./recources/catalog2.png) no-repeat center/cover;}
+.Catalogimg3{background:url(./recources/catalog3.png.jpg) no-repeat center/cover;}
+.Catalogimg4{background:url(./recources/catalog4.png) no-repeat center/cover;}
+.Catalogimg5{background:url(./recources/catalog5.png) no-repeat center/cover;}
+.Catalogimg6{background:url(./recources/catalog6.png) no-repeat center/cover;}
+/* .infiniteSlide{animation: slide 20s infinite ease-in-out;}@keyframes slide{0%{transform: translateX(1200px);}100%{transform: translateX(-1200px);}} */
+.beforeanimation{ transform: translateX(27%);}
+.SlideOnClick1{animation: slide1 2s ease-in-out forwards;}@keyframes slide1{0%{transform: translateX(27%);}100%{transform: translateX(-27%);}}
+.SlideOnClick2{animation: slide2 2s ease-in-out forwards;}@keyframes slide2{0%{transform: translateX(-27%);}100%{transform: translateX(27%);}}

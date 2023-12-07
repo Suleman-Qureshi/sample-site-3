@@ -6,8 +6,126 @@
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header class="w-screen h-screen relative"></header>
+<body style="font-family:NewYork;" class="overflow-x-hidden">
+    <nav class="w-screen h-auto py-5 px-20 fixed z-20 purple flex justify-between items-center bglavender">
+        <p class="text-3xl font-semi-bold"><a href="#Home">GARDENVALLEY.</a></p>
+        <div>
+            <ul class="flex space-x-16 font-normal Popin">
+              <a href="#About" class="relative BorderOnBottom hover:after:w-full pb-1"><li>About us</li></a>
+              <a href="#Catalog" class="relative BorderOnBottom hover:after:w-full pb-1"><li>Catalog</li></a>
+              <a href="#Delivery" class="relative BorderOnBottom hover:after:w-full pb-1"><li>Deliver</li></a>
+              <a href="#Review" class="relative BorderOnBottom hover:after:w-full pb-1"><li>Reviews</li></a>
+              <a href="#Contacts" class="relative BorderOnBottom hover:after:w-full pb-1"><li>Contacts</li></a>
+            </ul>
+        </div>
+        <div class="flex items-center space-x-2">
+            <p class="Popin">ENG</p>
+            <i class="fa-solid fa-bars fa-2x cursor-pointer"></i>
+        </div>
+    </nav>
+    <header id="Home" class="w-screen h-screen relative flex px-20 items-center">
+        <div class="lavender space-y-5">
+            <p class="text-lg Popin">Blooms & Beyond&#58;</p>
+            <h1 class="font-semibold text-5xl w-2/5 leading-snug tracking-wider">Your Path To A Flourishing Garden With Garden Way</h1>
+            <button class="text-2xl border borderColor Tan font-medium px-8 py-2 rounded-full">Order Now</button>
+        </div>
+    </header>
+    <section class="w-screen h-auto px-20 py-12 space-y-20 flex flex-col justify-between items-center bgTan">
+  <h2 class="BlueGrey font-medium text-4xl">WHY CHOOSE US</h2>
+  <div class="w-full h-auto flex justify-between items-center">
+        <div class="Popin flex flex-col justify-between items-center text-center space-y-6 w-3/12">
+            <i class="fa-solid fa-spa fa-xl BlueGrey"></i>
+            <p class="Rose">Expertise That Blooms</p>
+            <p class="text-center text-sm">Benefit from our team of seasoned horticulturists and dedicated garden enthusiasts, ensuring expert guidance for your garden's success.</p>
+        </div>
+        <div class="Popin flex flex-col justify-between items-center text-center space-y-6 w-3/12">
+            <i class="fa-solid fa-seedling fa-xl BlueGrey"></i>
+            <p class="Rose">Quality meets Sustainability</p>
+            <p class="text-center text-sm">Our curated products prioritize quality and sustainability, helping you create a garden that flourishes today and contributes to a greener tomorrow.</p>
+        </div>
+        <div class="Popin flex flex-col justify-between items-center text-center space-y-6 w-3/12">
+            <i class="fa-solid fa-thumbs-up fa-xl BlueGrey"></i>
+            <p class="Rose">Community of Green Thumbs</p>
+            <p class="text-center text-sm">Join a vibrant community of like-minded gardeners. Exchange tips, seek advice, and celebrate successes together, making your gardening journey even more enjoyable.</p>
+        </div>
+  </div>
+    </section>
+    <section id="Catalog" class="bgTan">
+        <div class="Catalogbg w-screen relative h-auto px-20 pt-28 space-y-10 flex flex-col justify-between items-center">
+            <h2 class="lavender  font-medium text-4xl">OUR CATALOG</h2>
+            <span class="absolute z-10 text-6xl text-center lavender cursor-pointer font-bold right-10 top-1/2 -translate-y-1/2">&#x2192;</span>
+            <span class="absolute z-10 text-6xl text-center lavender cursor-pointer font-bold left-10 top-1/2 -translate-y-1/2">&#x2190;</span>
+            <div class=" w-auto h-auto py-5 flex space-x-44 beforeanimation">
+                <div class="w-60 relative h-96 Catalogimg1 px-1 overflow-hidden rounded-full flex justify-center border-white border">
+                    <div class="TransparentWhite px-12 py-4  rounded-b-full absolute bottom-0 mb-5 flex flex-col items-center justify-between">
+                        <h4 class="Popin font-medium text-sm">Tulip Tenderness</h4>
+                        <div class="border BorderPurple mt-2 flex py-1overflow-hidden rounded-full justify-between items-center">
+                            <p class="purple text-xl ml-2">50$&nbsp;&nbsp;60$</p>
+                            <i class="fa-brands fa-opencart fa-2x ml-2 py-1 bgpurple rounded-r-full text-white cursor-pointer"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-60 relative h-96 Catalogimg2 px-1 overflow-hidden rounded-full flex justify-center shadow-md border-white border">
+                    <div class="TransparentWhite px-12 py-4  rounded-b-full absolute bottom-0 mb-5 flex flex-col items-center justify-between">
+                        <h4 class="Popin font-medium text-sm">Bloom Buddy</h4>
+                        <div class="border BorderPurple mt-2 flex py-1overflow-hidden rounded-full justify-between items-center">
+                            <p class="purple text-xl ml-2">10$&nbsp;&nbsp;15$</p>
+                            <i class="fa-brands fa-opencart fa-2x ml-2 py-1 bgpurple rounded-r-full text-white cursor-pointer"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-60 relative h-96 Catalogimg3 px-1 overflow-hidden rounded-full flex justify-center shadow-md border-white border">
+                    <div class="TransparentWhite px-12 py-4  rounded-b-full absolute bottom-0 mb-5 flex flex-col items-center justify-between">
+                        <h4 class="Popin font-medium text-sm">Petal Pal</h4>
+                        <div class="border BorderPurple mt-2 flex py-1overflow-hidden rounded-full justify-between items-center">
+                            <p class="purple text-xl ml-2">15$&nbsp;&nbsp;18$</p>
+                            <i class="fa-brands fa-opencart fa-2x ml-2 py-1 bgpurple rounded-r-full text-white cursor-pointer"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-60 relative h-96 Catalogimg4 px-1 overflow-hidden rounded-full flex justify-center shadow-md border-white border">
+                    <div class="TransparentWhite px-12 py-4  rounded-b-full absolute bottom-0 mb-5 flex flex-col items-center justify-between">
+                        <h4 class="Popin font-medium text-sm">Lily Love</h4>
+                        <div class="border BorderPurple mt-2 flex py-1overflow-hidden rounded-full justify-between items-center">
+                            <p class="purple text-xl ml-2">12$&nbsp;&nbsp;19$</p>
+                            <i class="fa-brands fa-opencart fa-2x ml-2 py-1 bgpurple rounded-r-full text-white cursor-pointer"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-60 relative h-96 Catalogimg5 px-1 overflow-hidden rounded-full flex justify-center shadow-md border-white border">
+                    <div class="TransparentWhite px-12 py-4  rounded-b-full absolute bottom-0 mb-5 flex flex-col items-center justify-between">
+                        <h4 class="Popin font-medium text-sm">Rosey Posy</h4>
+                        <div class="border BorderPurple mt-2 flex py-1overflow-hidden rounded-full justify-between items-center">
+                            <p class="purple text-xl ml-2">20$&nbsp;&nbsp;25$</p>
+                            <i class="fa-brands fa-opencart fa-2x ml-2 py-1 bgpurple rounded-r-full text-white cursor-pointer"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-60 relative h-96 Catalogimg6 px-1 overflow-hidden rounded-full flex justify-center shadow-md border-white border">
+                    <div class="TransparentWhite px-12 py-4  rounded-b-full absolute bottom-0 mb-5 flex flex-col items-center justify-between">
+                        <h4 class="Popin font-medium text-sm">Blossom BFF</h4>
+                        <div class="border BorderPurple mt-2 flex py-1overflow-hidden rounded-full justify-between items-center">
+                            <p class="purple text-xl ml-2">30$&nbsp;&nbsp;32$</p>
+                            <i class="fa-brands fa-opencart fa-2x ml-2 py-1 bgpurple rounded-r-full text-white cursor-pointer"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex space-x-4 items-center justify-center ml-5">
+                <i class="fa-solid fa-circle Rose"></i>
+                <i class="fa-solid fa-circle Tan"></i>
+            </div>
+            <a href="" class="Popin text-lg font-medium lavender">Read More <span class="text-xl font-medium">&#x2192;</span></a>
+        </div>
+    </section>
+    <section id="About">
+
+    </section>
+    <script src="./index.js"></script>
 </body>
 </html>
