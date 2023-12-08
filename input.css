@@ -5,7 +5,7 @@ header{background:url(./recources/1.png)no-repeat center/cover;}
 *{scroll-behavior:smooth;}
 .bglavender{background-color:hsl(240,67%,94%);}.lavender{color:hsl(240,67%,94%);}
 .borderColor{border-color: rgb(242,224,212);}
-.Tan{color:rgb(242,224,212);}
+.Tan{color:rgb(242,224,212);transition: 0.3;}
 .bgTan{background-color:rgb(242,224,212);}
 .purple{color:rgb(120,97,145);}
 .bgpurple{background-color:rgb(120,97,145);}
@@ -13,7 +13,8 @@ header{background:url(./recources/1.png)no-repeat center/cover;}
 .BorderOnBottom::after{position: absolute;content:"";width:0;left:0;transition:0.4s;height:0.1rem;border-radius:50rem;background-color:rgb(120,97,145);}
 .bgBlueGrey{background-color: rgb(113,120,139);}
 .BlueGrey{color: rgb(113,120,139);}
-.Rose{color: rgb(213,160,148);}
+.borderBlueGrey{border-color: rgb(113,120,139);}
+.Rose{color: rgb(213,160,148);transition: 0.3s;}
 .Popin{font-family: 'Poppins';}
 .Catalogbg{background:url(./recources/Catalogbg.png) no-repeat; background-size: cover;}
 .TransparentWhite{background-color: rgba(255, 255, 255, 0.686);}
@@ -23,7 +24,11 @@ header{background:url(./recources/1.png)no-repeat center/cover;}
 .Catalogimg4{background:url(./recources/catalog4.png) no-repeat center/cover;}
 .Catalogimg5{background:url(./recources/catalog5.png) no-repeat center/cover;}
 .Catalogimg6{background:url(./recources/catalog6.png) no-repeat center/cover;}
-/* .infiniteSlide{animation: slide 20s infinite ease-in-out;}@keyframes slide{0%{transform: translateX(1200px);}100%{transform: translateX(-1200px);}} */
 .beforeanimation{ transform: translateX(27%);}
-.SlideOnClick1{animation: slide1 2s ease-in-out forwards;}@keyframes slide1{0%{transform: translateX(27%);}100%{transform: translateX(-27%);}}
-.SlideOnClick2{animation: slide2 2s ease-in-out forwards;}@keyframes slide2{0%{transform: translateX(-27%);}100%{transform: translateX(27%);}}
+.SlideOnClick1{animation: slide1 2s ease-out forwards;}@keyframes slide1{0%{transform: translateX(27%);}100%{transform: translateX(-27%);}}
+.SlideOnClick2{animation: slide2 2s ease-out forwards;}@keyframes slide2{0%{transform: translateX(-27%);}100%{transform: translateX(27%);}}
+.DiliveryBeforeAnimation2{transform: translateX(80%);}
+.SlideanmationForDeliverySection{animation: slide3 1s ease-out forwards;}@keyframes slide3{0%{transform: translateX(80%);}100%{transform: translateX(0%);}}
+.SlideanmationForDeliverySection2{animation: slide4 1s ease-out forwards;}@keyframes slide4{0%{transform: translateX(0%);}100%{transform: translateX(-80%);}}
+.SlideanmationForDeliverySection1{animation: slide5 1s ease-out forwards;}@keyframes slide5{0%{transform: translateX(0%);}100%{transform: translateX(80%);}}
+.SlideanmationForDeliverySection3{animation: slide6 1s ease-out forwards;}@keyframes slide6{0%{transform: translateX(-80%);}100%{transform: translateX(0%);}}

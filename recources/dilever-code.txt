@@ -1,0 +1,36 @@
+  <div class="flex w-auto space-x-44">
+                <div class="flex w-auto h-auto bgTan py-6 px-5 space-x-8 flex-nowrap rounded">
+                  <img src="./recources/D-man-1.png" alt="man1pic" class="w-44">
+                <div class="flex flex-col space-y-5">
+                    <div class="flex justify-between items-center">
+                        <p class="font-semibold text-xl Popin">Clara</p>
+                        <div class="Rose">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="Popin w-96 text-sm">In a world where quality and service often blend, Gardenway stands out as a beacon of excellence. From order to doorstep, their commitment to perfection is unmatched. My heartfelt thanks for bringing the beauty of nature into my home with such finesse and care.
+                    </div>
+                </div>
+                </div>
+                <div class="flex w-auto h-auto bgTan py-6 px-5 space-x-8 flex-nowrap rounded">
+                  <img src="./recources/D-man-1.png" alt="man1pic" class="w-44">
+                <div class="flex flex-col space-y-5">
+                    <div class="flex justify-between items-center">
+                        <p class="font-semibold text-xl Popin">Clara</p>
+                        <div class="Rose">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="Popin w-96 text-sm">In a world where quality and service often blend, Gardenway stands out as a beacon of excellence. From order to doorstep, their commitment to perfection is unmatched. My heartfelt thanks for bringing the beauty of nature into my home with such finesse and care.
+                    </div>
+                </div>
+                </div>
+            </div>
